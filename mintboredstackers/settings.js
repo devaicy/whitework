@@ -33,7 +33,7 @@ const collectionInfo = {
 */
 
 const mintInfo = {
-    price: 0.125,
+    price: 0.15,
     totalSupply: 5000,
     minUnits: 1,
     maxUnits: 5,
@@ -51,7 +51,7 @@ const customStrings = {
     title: "{name} mint", // Title prefix (ex "Buy your {name}") - You can use {name} to insert the collection name
     connectButton: "CONNECT WALLET",
     transferButton: "MINT NOW",
-    dateString: "Bonus: Mint 5 & get 1 FREE", // Date string (ex "Pre sale available {date}") - You can use {date} to insert the collection date
+    dateString: "Bonus: Mint 20 & get 1 FREE", // Date string (ex "Pre sale available {date}") - You can use {date} to insert the collection date
 }
 
 /*
